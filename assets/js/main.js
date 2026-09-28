@@ -1,5 +1,5 @@
-/* Wokvibe website — GSAP motion.
-   Motion language follows the Wokvibe brand board: GAZE FIRST / SOFT BOUNCE /
+/* Nommi website — GSAP motion.
+   Motion language follows the Nommi brand board: GAZE FIRST / SOFT BOUNCE /
    ONE BEAT AHEAD, with full respect for prefers-reduced-motion via
    gsap.matchMedia(). All animation targets transforms and opacity only. */
 (function () {
@@ -228,7 +228,7 @@
   );
 
   /* language switch can change text metrics — recalc trigger positions */
-  document.addEventListener("wokvibe:langchange", function () {
+  document.addEventListener("nommi:langchange", function () {
     window.ScrollTrigger && ScrollTrigger.refresh();
   });
 })();

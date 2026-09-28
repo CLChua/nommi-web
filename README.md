@@ -1,8 +1,8 @@
-# Wokvibe
+# Nommi
 
 **Plan it. Cook it. Feel good.** —— 安排好。做出来。吃出好心情。
 
-Wokvibe 是一款为 iPhone 设计的饮食规划 App，把食谱、今日餐食、食材库存和营养目标串成一条鲜活的日常闭环——从「今晚吃什么」，到安心吃下最后一口。
+Nommi 是一款为 iPhone 设计的饮食规划 App，把食谱、今日餐食、食材库存和营养目标串成一条鲜活的日常闭环——从「今晚吃什么」，到安心吃下最后一口。
 
 - iPhone · iOS 18+ · 免费开始
 - 下载：App Store（上架后补充链接）
@@ -59,7 +59,7 @@ Wokvibe 是一款为 iPhone 设计的饮食规划 App，把食谱、今日餐食
 
 ## 相关链接
 
-- 官网：<https://clchua.github.io/wokvibe-web/>
-- 隐私政策：<https://clchua.github.io/wokvibe-web/privacy.html>
-- 服务条款：<https://clchua.github.io/wokvibe-web/terms.html>
-- 支持与反馈：support@wokvibe.app
+- 官网：<https://clchua.github.io/nommi-web/>
+- 隐私政策：<https://clchua.github.io/nommi-web/privacy.html>
+- 服务条款：<https://clchua.github.io/nommi-web/terms.html>
+- 支持与反馈：support@nommi.app

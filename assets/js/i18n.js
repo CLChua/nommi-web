@@ -1,11 +1,11 @@
-/* Wokvibe website — bilingual (en/zh) switcher.
+/* Nommi website — bilingual (en/zh) switcher.
    Pages carry both languages inline (.lang-en / .lang-zh); visibility is
    CSS-driven from <html data-lang>. This script only manages state:
    persistence, <html lang>, <title>/meta description, and toggle buttons. */
 (function () {
   "use strict";
 
-  var STORAGE_KEY = "wokvibe-lang";
+  var STORAGE_KEY = "nommi-lang";
 
   function detect() {
     try {
@@ -45,7 +45,7 @@
     }
     apply(lang);
     if (document.dispatchEvent) {
-      document.dispatchEvent(new CustomEvent("wokvibe:langchange", { detail: { lang: lang } }));
+      document.dispatchEvent(new CustomEvent("nommi:langchange", { detail: { lang: lang } }));
     }
   }
 

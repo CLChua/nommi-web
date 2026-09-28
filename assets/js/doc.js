@@ -1,4 +1,4 @@
-/* Wokvibe website — document pages (privacy / terms):
+/* Nommi website — document pages (privacy / terms):
    header scrolled state + highlight the TOC entry of the section in view. */
 (function () {
   "use strict";
