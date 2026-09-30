@@ -53,7 +53,7 @@ Nommi 是一款为 iPhone 设计的饮食规划 App，把食谱、今日餐食�
   - 营养目标、摄入记录与完整烹饪模式
 - **AI 导入包（$2.99，一次性内购）**
   - 30 次 AI 智能导入（照片或网页 → 草稿）
-  - 积分永久有效，不会过期
+  - 积分不会过期
   - 新用户含 3 次免费试用，无需绑卡
   - 通过 Apple 内购完成购买；无订阅、无自动续费，价格以你所在地区的 App Store 为准
 
@@ -62,4 +62,4 @@ Nommi 是一款为 iPhone 设计的饮食规划 App，把食谱、今日餐食�
 - 官网：<https://clchua.github.io/nommi-web/>
 - 隐私政策：<https://clchua.github.io/nommi-web/privacy.html>
 - 服务条款：<https://clchua.github.io/nommi-web/terms.html>
-- 支持与反馈：support@nommi.app
+- 支持与反馈：dev.chua@gmail.com

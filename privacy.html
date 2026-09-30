@@ -24,9 +24,8 @@
   </script>
 </head>
 <body>
-  <!-- PLACEHOLDERS: operator name "Nommi Team", emails privacy@nommi.app /
-       support@nommi.app and the effective date below must be replaced with
-       real values before launch. -->
+  <!-- PLACEHOLDERS: none remaining. Launch checklist lives in index.html
+       (App Store URL) once the app is live. -->
   <a class="skip-link" href="#main"><span class="lang-en">Skip to content</span><span class="lang-zh">跳到正文</span></a>
 
   <header class="site-header on-dark">
@@ -98,11 +97,11 @@
         <section class="policy-sec" id="p-intro">
           <h2><span class="lang-en">1. Introduction</span><span class="lang-zh">1. 引言</span></h2>
           <div class="lang-en">
-            <p>Nommi is a mobile application for recipe management, meal planning, pantry tracking and nutrition ("the App"), published by the "Nommi Team" ("we", "us"). This Privacy Policy describes what information the App and this website process, why, and what choices you have.</p>
+            <p>Nommi is a mobile application for recipe management, meal planning, pantry tracking and nutrition ("the App"), published by its independent developer, Chua ("we", "us"). This Privacy Policy describes what information the App and this website process, why, and what choices you have.</p>
             <p>We try to collect as little as possible. Many Nommi features run entirely on your device, and no account is required for them. The main cases in which information leaves your device are: (a) optional Smart Import AI processing, (b) optional purchases, and (c) optional iCloud sync handled by Apple under your own Apple account.</p>
           </div>
           <div class="lang-zh">
-            <p>Nommi 是一款用于食谱管理、餐食计划、库存跟踪与营养记录的移动应用（下称「本应用」），由「Nommi 团队」（下称「我们」）发布。本隐私政策说明本应用及本网站处理哪些信息、为何处理，以及你可以做出哪些选择。</p>
+            <p>Nommi 是一款用于食谱管理、餐食计划、库存跟踪与营养记录的移动应用（下称「本应用」），由独立开发者 Chua（下称「我们」）发布。本隐私政策说明本应用及本网站处理哪些信息、为何处理，以及你可以做出哪些选择。</p>
             <p>我们尽可能少收集数据。Nommi 的许多功能完全在你的设备上运行，且无需账户。信息离开你设备的主要情形包括：(a) 可选的 AI 智能导入处理；(b) 可选的应用内购买；(c) 由 Apple 在你自己的 Apple 账户下处理的可选 iCloud 同步。</p>
           </div>
         </section>
@@ -110,7 +109,7 @@
         <section class="policy-sec" id="p-scope">
           <h2><span class="lang-en">2. Scope</span><span class="lang-zh">2. 适用范围</span></h2>
           <div class="lang-en">
-            <p>This policy covers the Nommi iOS App and the nommi website. It does not cover third-party services' own practices when they act as independent controllers — for example Apple (iCloud, App Store, Apple Health, Sign in with Apple) or your AI provider's handling described in its own policy linked in Section 5.</p>
+            <p>This policy covers the Nommi iOS App and the nommi website. It does not cover third-party services' own practices when they act as independent controllers — for example Apple (iCloud, App Store, Apple Health, Sign in with Apple) or your AI providers' handling described in their own policies linked in Section 5.</p>
           </div>
           <div class="lang-zh">
             <p>本政策适用于 Nommi iOS 应用与 Nommi 网站。当第三方服务作为独立控制者行事时（例如 Apple 的 iCloud、App Store、Apple 健康与「通过 Apple 登录」，或第 5 节所链接的 AI 提供商按其自身政策进行的处理），其自身实践不在本政策范围内。</p>
@@ -166,24 +165,24 @@
           <div class="lang-en">
             <p>Smart Import converts a photo (for example a recipe card or a grocery receipt) or the content of a public webpage into an editable draft. To do this:</p>
             <ul>
-              <li>Only the content you explicitly select (bounded images up to 3&nbsp;MB and the webpage text) is sent from the App to our cloud backend hosted on <strong>Supabase</strong>, which forwards it to the AI model provider <strong>DeepSeek</strong> for processing.</li>
+              <li>Only the content you explicitly select (bounded images up to 3&nbsp;MB and the webpage text) is sent from the App to our cloud backend hosted on <strong>Supabase</strong>, which forwards it to our AI model providers <strong>DeepSeek</strong> and <strong>Alibaba Cloud</strong> for processing.</li>
               <li>Smart Import requires your <strong>explicit consent</strong> before first use. You can withdraw consent at any time in Smart Import settings; withdrawing consent blocks future imports.</li>
               <li>We do <strong>not retain your original photos</strong>. Generated drafts are stored in the cloud only temporarily and become unavailable <strong>24 hours</strong> after creation; automated cleanup removes the payloads.</li>
               <li>The AI uses this content only to create your draft. Nothing is saved into your recipes or inventory until you confirm it in the App.</li>
               <li>Local OCR and manual import never consume cloud credits and never send content to the cloud.</li>
             </ul>
-            <p>DeepSeek acts as an independent processor with its own privacy policy, which additionally applies: <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" rel="noopener nofollow" target="_blank">DeepSeek Privacy Policy</a>.</p>
+            <p>DeepSeek and Alibaba Cloud act as independent processors with their own privacy policies, which additionally apply: <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" rel="noopener nofollow" target="_blank">DeepSeek Privacy Policy</a> · <a href="https://www.alibabacloud.com/help/en/legal/latest/privacy-policy" rel="noopener nofollow" target="_blank">Alibaba Cloud Privacy Policy</a>.</p>
           </div>
           <div class="lang-zh">
             <p>智能导入可将照片（例如食谱卡片或采购小票）或公开网页的内容转换为可编辑草稿。为此：</p>
             <ul>
-              <li>只有你明确选择的内容（不超过 3&nbsp;MB 的图片与网页文本）会从应用发送至托管在 <strong>Supabase</strong> 上的云端后端，再由其转发给 AI 模型提供商 <strong>DeepSeek</strong> 进行处理。</li>
+              <li>只有你明确选择的内容（不超过 3&nbsp;MB 的图片与网页文本）会从应用发送至托管在 <strong>Supabase</strong> 上的云端后端，再由其转发给 AI 模型提供商 <strong>DeepSeek</strong> 与<strong>阿里云（Alibaba Cloud）</strong>进行处理。</li>
               <li>智能导入在首次使用前需要你的<strong>明确同意</strong>。你可以随时在智能导入设置中撤回同意；撤回后将阻止后续导入。</li>
               <li>我们<strong>不会保留你的原始照片</strong>。生成的草稿仅临时存储于云端，并在创建 <strong>24 小时</strong>后失效；自动清理任务会删除相关数据。</li>
               <li>AI 仅将这些内容用于生成你的草稿；在你于应用中确认之前，任何内容都不会写入你的食谱或库存。</li>
               <li>本地 OCR 与手动导入不消耗云端积分，也不会向云端发送内容。</li>
             </ul>
-            <p>DeepSeek 作为独立处理者运营，其自身隐私政策同样适用：<a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" rel="noopener nofollow" target="_blank">DeepSeek 隐私政策</a>。</p>
+            <p>DeepSeek 与阿里云作为独立处理者运营，其各自隐私政策同样适用：<a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html" rel="noopener nofollow" target="_blank">DeepSeek 隐私政策</a> · <a href="https://www.alibabacloud.com/help/zh/legal/latest/privacy-policy" rel="noopener nofollow" target="_blank">阿里云隐私政策</a>。</p>
           </div>
         </section>
 
@@ -213,7 +212,7 @@
             <ul>
               <li>购买通过 <strong>RevenueCat</strong> 校验；其处理交易标识符与商店收据，用于确认权益以及对账、退款与拒付处理。</li>
               <li>我们会保存与你的假名化账户标识符相关联的购买<strong>财务记录</strong>（商店、交易 ID、发放积分、退款），以满足会计、税务、防欺诈与争议处理要求。删除账户后，这些记录将与你的身份解除关联（见第 14 节）。</li>
-              <li>所购积分永久有效，不会过期。退款按 Apple 退款政策处理；退款可能相应扣减最初发放的积分。</li>
+              <li>所购积分不会过期。退款按 Apple 退款政策处理；退款可能相应扣减最初发放的积分。</li>
               <li>游客试用：未登录账户时你可能获得少量一次性试用额度。为防止反复重新领取免费试用（试用滥用），在删除账户或重装应用后，我们会保留一个<strong>假名化标记</strong>——即无法逆向识别你身份的带密钥散列值（HMAC）。该标记不含姓名、邮箱或设备内容。</li>
             </ul>
           </div>
@@ -251,7 +250,7 @@
             <p>We share information only with the following categories of processors, each bound by data-protection agreements:</p>
             <ul>
               <li><strong>Supabase</strong> — cloud backend hosting (authentication, database and edge functions for Smart Import and account services).</li>
-              <li><strong>DeepSeek</strong> — AI model provider that processes Smart Import content to produce drafts (see Section 5).</li>
+              <li><strong>DeepSeek</strong> and <strong>Alibaba Cloud</strong> — AI model providers that process Smart Import content to produce drafts (see Section 5).</li>
               <li><strong>RevenueCat</strong> — purchase validation and subscription/purchase infrastructure.</li>
               <li><strong>Apple</strong> — In-App Purchase, Sign in with Apple, iCloud sync and Apple Health operate under your Apple account and Apple's own privacy policy.</li>
             </ul>
@@ -261,7 +260,7 @@
             <p>我们仅与以下类别的处理者共享信息，且均受数据处理协议约束：</p>
             <ul>
               <li><strong>Supabase</strong>——云后端托管（认证、数据库，以及支撑智能导入与账户服务的边缘函数）。</li>
-              <li><strong>DeepSeek</strong>——AI 模型提供商，处理智能导入内容以生成草稿（见第 5 节）。</li>
+              <li><strong>DeepSeek</strong>、<strong>阿里云</strong>——AI 模型提供商，处理智能导入内容以生成草稿（见第 5 节）。</li>
               <li><strong>RevenueCat</strong>——购买校验与购买基础设施。</li>
               <li><strong>Apple</strong>——应用内购、通过 Apple 登录、iCloud 同步与 Apple 健康均在你自己的 Apple 账户与 Apple 隐私政策下运行。</li>
             </ul>
@@ -272,10 +271,10 @@
         <section class="policy-sec" id="p-transfers">
           <h2><span class="lang-en">10. International data transfers</span><span class="lang-zh">10. 国际数据传输</span></h2>
           <div class="lang-en">
-            <p>Nommi is distributed worldwide. When you use features that involve our cloud backend, your information may be processed in the United States and other countries where our processors operate — countries that may not provide the same level of protection as your own. Where required, we rely on appropriate safeguards such as the EU Standard Contractual Clauses (and the UK Addendum / Swiss annexes where applicable). By using these features you understand this transfer takes place; you can avoid it entirely by not using Smart Import or purchases.</p>
+            <p>Nommi is distributed worldwide. When you use features that involve our cloud backend, your information may be processed in the United States, in the Chinese mainland (where our AI providers DeepSeek and Alibaba Cloud process Smart Import content) and in other countries and regions where our processors operate — places that may not provide the same level of protection as your own. Where required, we rely on appropriate safeguards such as the EU Standard Contractual Clauses (and the UK Addendum / Swiss annexes where applicable). By using these features you understand this transfer takes place; you can avoid it entirely by not using Smart Import or purchases.</p>
           </div>
           <div class="lang-zh">
-            <p>Nommi 面向全球分发。当你使用涉及我们云后端的功能时，你的信息可能在我们处理者所在的美国及其他国家/地区被处理——这些地区的保护水平可能与你所在地不同。在需要时，我们依赖适当的保障措施，例如欧盟标准合同条款（以及适用的英国附录/瑞士附件）。使用这些功能即表示你理解会发生上述传输；你也可以完全不使用智能导入与购买功能来避免此类传输。</p>
+            <p>Nommi 面向全球分发。当你使用涉及我们云后端的功能时，你的信息可能在美国、中国大陆（AI 提供商 DeepSeek 与阿里云在此处理智能导入内容）以及我们处理者所在的其他国家/地区被处理——这些地方的保护水平可能与你所在地不同。在需要时，我们依赖适当的保障措施，例如欧盟标准合同条款（以及适用的英国附录/瑞士附件）。使用这些功能即表示你理解会发生上述传输；你也可以完全不使用智能导入与购买功能来避免此类传输。</p>
           </div>
         </section>
 
@@ -317,7 +316,7 @@
               <li>Non-discrimination for exercising your rights (including CCPA/CPRA rights to know, delete, and correct);</li>
               <li>The right to lodge a complaint with your local supervisory authority.</li>
             </ul>
-            <p>Because most of your data stays on your device, deleting content in the App or uninstalling it exercises many of these rights directly. For cloud data, use in-app account deletion (Section 14) or contact us at <a href="mailto:privacy@nommi.app">privacy@nommi.app</a>. We respond within the timelines required by applicable law (typically 30 days for GDPR requests and 45 days for CCPA requests).</p>
+            <p>Because most of your data stays on your device, deleting content in the App or uninstalling it exercises many of these rights directly. For cloud data, use in-app account deletion (Section 14) or contact us at <a href="mailto:dev.chua@gmail.com">dev.chua@gmail.com</a>. We respond within the timelines required by applicable law (typically 30 days for GDPR requests and 45 days for CCPA requests).</p>
           </div>
           <div class="lang-zh">
             <p>根据你所在地区，你对我们处理的个人数据享有以下部分或全部权利：</p>
@@ -331,7 +330,7 @@
               <li>因行使权利而不受歧视（包括 CCPA/CPRA 下的知情、删除与更正权）；</li>
               <li>向当地监管机构投诉的权利。</li>
             </ul>
-            <p>由于你的大部分数据保存在你自己的设备上，在应用内删除内容或卸载应用即可直接行使其中许多权利。对于云端数据，请使用应用内账户删除（见第 14 节），或发送邮件至 <a href="mailto:privacy@nommi.app">privacy@nommi.app</a>。我们将在适用法律要求的期限内答复（GDPR 请求通常为 30 天，CCPA 请求通常为 45 天）。</p>
+            <p>由于你的大部分数据保存在你自己的设备上，在应用内删除内容或卸载应用即可直接行使其中许多权利。对于云端数据，请使用应用内账户删除（见第 14 节），或发送邮件至 <a href="mailto:dev.chua@gmail.com">dev.chua@gmail.com</a>。我们将在适用法律要求的期限内答复（GDPR 请求通常为 30 天，CCPA 请求通常为 45 天）。</p>
           </div>
         </section>
 
@@ -404,15 +403,13 @@
         <section class="policy-sec" id="p-contact">
           <h2><span class="lang-en">18. Contact us</span><span class="lang-zh">18. 联系我们</span></h2>
           <div class="lang-en">
-            <p>Nommi Team (operator of record — placeholder)<br>
-            Privacy questions, requests and complaints: <a href="mailto:privacy@nommi.app">privacy@nommi.app</a><br>
-            General support: <a href="mailto:support@nommi.app">support@nommi.app</a></p>
+            <p>Chua — independent developer and operator of record<br>
+            Privacy questions, requests and general support: <a href="mailto:dev.chua@gmail.com">dev.chua@gmail.com</a></p>
             <p>We aim to reply to all privacy requests within 30 days.</p>
           </div>
           <div class="lang-zh">
-            <p>Nommi 团队（运营主体——占位符，上线前替换）<br>
-            隐私问题、请求与投诉：<a href="mailto:privacy@nommi.app">privacy@nommi.app</a><br>
-            一般支持：<a href="mailto:support@nommi.app">support@nommi.app</a></p>
+            <p>Chua（独立开发者，运营主体）<br>
+            隐私问题、请求与一般支持：<a href="mailto:dev.chua@gmail.com">dev.chua@gmail.com</a></p>
             <p>我们的目标是在 30 天内回复所有隐私请求。</p>
           </div>
         </section>
@@ -455,7 +452,7 @@
         <div class="footer-col">
           <h4><span class="lang-en">Support</span><span class="lang-zh">支持</span></h4>
           <ul>
-            <li><a href="mailto:support@nommi.app">support@nommi.app</a></li>
+            <li><a href="mailto:dev.chua@gmail.com">dev.chua@gmail.com</a></li>
             <li>
               <div class="lang-toggle" role="group" aria-label="Language / 语言">
                 <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
