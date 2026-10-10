@@ -5,7 +5,7 @@
 Nommi 是一款为 iPhone 设计的饮食规划 App，把食谱、今日餐食、食材库存和营养目标串成一条鲜活的日常闭环——从「今晚吃什么」，到安心吃下最后一口。
 
 - iPhone · iOS 18+ · 免费开始
-- 下载：App Store（上架后补充链接）
+- 下载：[App Store](https://apps.apple.com/app/id6807810076)
 
 ## 四大入口，一条日常线
 
